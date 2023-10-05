@@ -1,0 +1,154 @@
+@import url("https://fonts.google.com/specimen/Poppins");
+
+* {
+  margin: 5px;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  
+}
+.box {
+border-style:groove;
+  border-color: #3BBADB;
+height: 600px;
+left: 150;
+padding: 27px;
+align-items: center;
+border-left-width: 5px;
+
+  width: 1000px;
+}
+
+
+a {
+  text-decoration: none;
+
+}
+.header-right {
+  float: right;
+}
+ 
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px 100px;
+  float: right;
+
+}
+
+nav ul li {
+  list-style: none;
+
+  display:inline-block;
+  padding: 10px 20px;
+
+}
+nav ul li a {
+  color: #1d1d24;
+  position: relative;
+  padding: 5px 0;
+}
+nav ul li a:hover {
+  color: #D1884F;
+}
+nav ul li a:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  width: 0;
+  height: 3px;
+  background: #ffffff;
+  transition: 0.3s;
+  bottom: 0;
+}
+nav ul li a:hover:after {
+  width: 100%;
+}
+.btn {
+  align-items: center;
+  background: #FFFFFF;
+  border: 2px solid #008AAA;
+  box-shadow: #8bb0b9;
+  color: #008AAA;
+  font-family: Inter, sans-serif;
+  font-size: 1rem;
+  font-weight: 70;
+  height: 16px;
+  line-height: 14px;
+  padding: 6px;
+  width: 26px;
+  border-radius: 6px;
+  cursor: pointer;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  margin-right: 10px;
+}
+
+
+.btn:disabled {
+  pointer-events: none;
+}
+
+.btn:hover {
+  color: #fff;
+  background-color: #008AAA;
+  box-shadow: rgba(104, 169, 199, 0.25) 0 8px 15px;
+  transform: translateY(-2px);
+}
+
+.btn:active {
+  box-shadow: none;
+  transform: translateY(0);
+}
+
+
+.content {
+  position: absolute;
+  top: 35%;
+  left: 8%;
+}
+.logo img{
+ 
+    float: right;
+    size: 25px;
+    margin-right: 10px;
+
+  
+}
+.content .title {
+  color: #3BBADB;
+  font-size: 15px;
+  
+}
+.content h1 {
+  color: #008AAA;
+  font-size: 25px;
+  font-weight: 900;
+  line-height: 90px;
+  text-transform: inherit;
+  width: 70%;
+}
+.content h1 span {
+  color: #D1884F;
+}
+.content p {
+  width: 55%;
+  color: black;
+  margin-top: 25px;
+  font-size: 10px;
+
+}
+
+.content p details {
+  width: 20%;
+  color: #3BBADB;
+  margin-top: 25px;
+  margin-bottom: 30px;
+  font-size: 10px;
+
+}
+
+
+
